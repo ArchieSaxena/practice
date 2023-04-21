@@ -1,0 +1,166 @@
+*
+{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+form
+{
+    background:white;
+    width:400px;
+    height:55px;
+    display:flex;
+}
+form input{
+    flex:1;
+    border:none;
+    outline:none;
+}
+form button{
+    background:rgb(34, 34, 42);
+    padding:10px 50px;
+    border:none;
+    outline-color:black;
+    color:white;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+.input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px black;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+}
+  
+.search svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}
+  
+.input:focus {
+    opacity: 1;
+    width: 250px;
+}
+header {
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+  
+.nav-brand a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+  
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+.nav-links li {
+    margin-left: 20px;
+}
+  
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.nav-links a:hover{
+    color:blueviolet;
+
+}
+  
+
+body {
+    background:pink;
+}
+.container
+{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.card
+{
+    background:white;
+    display:block;
+    width:400px;
+    /* height:400px; */
+    margin:0.75rem;
+    /* border-radius:1rem 1rem 0 0; */
+}
+
+.card-image
+{
+    /* background-color:aqua; */
+    height:9rem;
+    margin-bottom:2rem;
+    background-size:cover;
+    object-fit: cover;
+}
+.card-1
+{
+    background-image: url("gdsc.png");
+}
+.card-2
+{
+    background-image: url("background.jpg");
+}
+.card-3
+{
+    background-image: url("logo.jpg");
+}
+.card h2{
+    padding:0.75rem;
+}
+.card p{
+    padding:0.75rem;
+}
+.card a{
+    /* background-color:black; */
+    color:blue;
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    padding:1rem 1.25rem;
+    display:block;
+    text-align:center;
+    margin: 0.75rem auto;
+}
+.card:hover
+{
+    background-color:rgb(62,62,62);
+    /* box-shadow:rgb(189, 41, 41); */
+    color:white;
+    cursor:pointer;
+    transform:scale(1.03);
+}
+.card hr {
+    width: 90%;
+    margin: 0.5rem auto;
+}
